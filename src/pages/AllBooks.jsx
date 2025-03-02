@@ -35,7 +35,7 @@ const AllBooks = () => {
         ? `https://dav08library.onrender.com/api/v1/get-all-books?category=${encodeURIComponent(category)}`
         : "https://dav08library.onrender.com/api/v1/get-all-books";
       
-      // Add cache-busting parameter to prevent caching
+      
       const response = await axios.get(`${url}${url.includes('?') ? '&' : '?'}_t=${Date.now()}`);
       setData(response.data.data);
     } catch (error) {
