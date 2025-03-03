@@ -23,7 +23,7 @@ const Footer = () => {
             try {
                 // For now, use localStorage values
                 const visitorCount = parseInt(localStorage.getItem('visitorCount') || '0');
-                const userCount = 3; // Hardcoded for now
+                const userCount = 264; // Hardcoded for now
                 
                 setStats({
                     visitors: visitorCount,
