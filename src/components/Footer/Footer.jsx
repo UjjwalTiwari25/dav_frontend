@@ -173,7 +173,7 @@ const Footer = () => {
                         </h3>
                         <div className="flex flex-wrap gap-3 justify-start">
                             <a 
-                                href="https://www.facebook.com/..." 
+                                href=" https://www.facebook.com/profile.php?id=61563293917250" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 aria-label="Facebook"
@@ -182,7 +182,7 @@ const Footer = () => {
                                 <FaFacebook className="text-blue-500 text-xl" />
                             </a>
                             <a 
-                                href="https://www.instagram.com/..." 
+                                href="https://www.instagram.com/dav.8b" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 aria-label="Instagram"
@@ -200,7 +200,7 @@ const Footer = () => {
                                 <FaXTwitter className="text-white text-xl" />
                             </a>
                             <a 
-                                href="https://youtube.com/..." 
+                                href="https://youtube.com/@davips8b"
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 aria-label="YouTube"
@@ -226,7 +226,7 @@ const Footer = () => {
                                 <div className="bg-gray-800/50 rounded-lg p-2 border border-gray-700/50 flex flex-col items-center">
                                     <div className="flex items-center gap-1 mb-1">
                                         <FaEye className="text-blue-400 text-sm" />
-                                        <span className="text-gray-300 text-xs font-medium">Visitors</span>
+                                        <span className="text-gray-300 text-xs font-medium"> Total Visitors</span>
                                     </div>
                                     <span className="text-white font-semibold text-lg bg-blue-500/20 px-3 py-1 rounded w-full text-center">
                                         {loading ? "..." : stats.visitors.toLocaleString()}
@@ -237,7 +237,7 @@ const Footer = () => {
                                 <div className="bg-gray-800/50 rounded-lg p-2 border border-gray-700/50 flex flex-col items-center">
                                     <div className="flex items-center gap-1 mb-1">
                                         <FaUsers className="text-purple-400 text-sm" />
-                                        <span className="text-gray-300 text-xs font-medium">Users</span>
+                                        <span className="text-gray-300 text-xs font-medium"> Registered Users</span>
                                     </div>
                                     <span className="text-white font-semibold text-lg bg-purple-500/20 px-3 py-1 rounded w-full text-center">
                                         {loading ? "..." : stats.users.toLocaleString()}

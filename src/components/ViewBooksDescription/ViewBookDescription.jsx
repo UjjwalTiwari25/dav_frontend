@@ -113,14 +113,11 @@ const ViewBookDescription = () => {
               )}
             </p>
 
-            <p className="text-lg sm:text-xl text-gray-300">
-              <span className="font-semibold">Added By:</span> {book.addedBy}
-            </p>
 
             {/* Add to Favorites Button */}
             <button
               onClick={toggleFavorite}
-              className="flex items-center space-x-2 px-6 py-2 transition-all duration-300 rounded-full"
+              className="flex items-center space-x-2 px-0 py-2 transition-all duration-300 rounded-full text-lg"
               aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
             >
               <span className="text-lg sm:text-xl text-gray-300 font-medium">
