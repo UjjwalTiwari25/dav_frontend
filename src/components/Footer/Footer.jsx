@@ -11,8 +11,8 @@ const Footer = () => {
 
     const aboutSections = {
         "About School": "DAV Ispat Public School, Sector 8B, established in 1991, is a CBSE-affiliated co-educational English medium school. It caters to both the children of steel plant employees and underprivileged students. Offering Science, Commerce, and Arts streams for XI and XII, the school focuses on holistic development through academics, personality building, and extracurricular activities. A dedicated faculty fosters self-discipline and value-based education, ensuring a well-rounded learning environment.",
-    
-        "Principal Message": "Education is transformative, and I am committed to a child-centered approach that nurtures confidence and holistic growth. DAV Ispat Public School thrives on student excellence, teacher dedication, and strong leadership. My mission is to empower each student, unlocking their unique potential through guidance and encouragement. Together, we will achieve new milestones.\n\nWarm regards,\nNagendra Prasad, Principal",
+        "Librarian Message": "The school library is a gateway to knowledge, creativity, and lifelong learning. I am committed to fostering a reading culture that inspires curiosity, critical thinking, and intellectual growth among students. By curating diverse collections and providing access to valuable resources, I strive to create an environment where students can explore, learn, and develop a deep appreciation for literature.\n\nWarm regards,\nMr.Sohit Choudhary, Librarian\nContact :  8340434496",
+        "Principal Message": "Education is transformative, and I am committed to a child-centered approach that nurtures confidence and holistic growth. DAV Ispat Public School thrives on student excellence, teacher dedication, and strong leadership. My mission is to empower each student, unlocking their unique potential through guidance and encouragement. Together, we will achieve new milestones.\n\nWarm regards,\nUttam Kumar Roy, Principal",
     
         "Vision and Mission": "Our mission is to provide quality education to the children of Bokaro Steel Plant employees and the local community. We are dedicated to fostering an environment that supports holistic growth and excellence."
     };
@@ -111,7 +111,7 @@ const Footer = () => {
                         <h3 className="text-lg font-semibold text-blue-500 flex items-center">
                             <span className="mr-1">📞</span> CONTACT US
                         </h3>
-                        <p className="text-gray-300 text-sm font-medium">8102382109</p>
+                        <p className="text-gray-300 text-sm font-medium">8340434496</p>
                         
                         <h3 className="text-lg font-semibold text-blue-500 flex items-center mt-5">
                             <span className="mr-1">📍</span> ADDRESS
