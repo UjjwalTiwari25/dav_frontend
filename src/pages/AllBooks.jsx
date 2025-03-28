@@ -24,6 +24,9 @@ const AllBooks = () => {
     "Encyclopedia",
     "Reference Book",
     "Dictionary",
+    "Hindi Novel",
+    "English Novel",
+    "Magazines",
     "Others"
   ];
 

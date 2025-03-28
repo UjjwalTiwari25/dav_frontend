@@ -46,6 +46,9 @@ const BookList = () => {
                 <option value="Encyclopedia">Encyclopedia</option>
                 <option value="Physics Books">Physics Books</option>
                 <option value="Maths Books">Maths Books</option>
+                <option value="Maths Books">Hindi Novel</option>
+                <option value="Maths Books">English Novel</option>
+                <option value="Maths Books">Magazines</option>
             </select>
 
             {/* Display Loading or Error Messages */}
